@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umme Dawood Quran Academy - Online Quran Learning</title>
+    <style>
+        /* Basic Reset & Fonts */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #0b462e; /* Islamic Green */
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #f0c24d; /* Gold color */
+            font-style: italic;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(11, 70, 46, 0.8), rgba(11, 70, 46, 0.8)), url('https://images.unsplash.com/photo-1609599006353-e629aaabfeae?ixlib=rb-4.0.3') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background-color: #f0c24d;
+            color: #0b462e;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #fff;
+            color: #0b462e;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Features/Courses Section */
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #0b462e;
+            font-size: 2rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 3px;
+            background-color: #f0c24d;
+            margin: 10px auto 0;
+        }
+
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .course-card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            border-top: 4px solid #0b462e;
+            transition: transform 0.3s;
+        }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .course-card h3 {
+            color: #0b462e;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        /* About Section */
+        .about {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-top: 40px;
+        }
+
+        /* Contact Section */
+        .contact {
+            text-align: center;
+            background-color: #0b462e;
+            color: white;
+            padding: 50px 20px;
+            margin-top: 50px;
+        }
+
+        .contact h2 {
+            margin-bottom: 20px;
+            color: #f0c24d;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #062619;
+            color: #bbb;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h2 { font-size: 2rem; }
+            .hero p { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Umme Dawood Quran Academy</h1>
+        <p>Learn Holy Quran Online From Home</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Online Quran Classes for Everyone</h2>
+        <p>Professional & Experienced Tutors for Kids and Adults. Start your journey of Quranic learning today.</p>
+        <a href="#contact" class="btn">Register Now / Contact Us</a>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        
+        <!-- About Section -->
+        <div class="about">
+            <h2 class="section-title">About Our Academy</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto; color: #666;">
+                Welcome to <strong>Umme Dawood Quran Academy</strong>. We are a leading online Islamic institution providing quality Quran education worldwide. Our courses are designed for students of all ages and levels, ensuring proper Tajweed and pronunciation from the comfort of your home.
+            </p>
+        </div>
+
+        <!-- Courses Section -->
+        <div style="margin-top: 50px;">
+            <h2 class="section-title">Our Courses</h2>
+            <div class="courses">
+                <div class="course-card">
+                    <h3>Noorani Qaida</h3>
+                    <p>Basic Arabic alphabet and pronunciation rules for absolute beginners and kids.</p>
+                </div>
+                <div class="course-card">
+                    <h3>Quran Reading</h3>
+                    <p>Learn to read the Holy Quran with correct accent and basic rules of Tajweed.</p>
+                </div>
+                <div class="course-card">
+                    <h3>Tajweed Course</h3>
+                    <p>Advanced rules of recitation to perfect your Quran reading beautifully.</p>
+                </div>
+                <div class="course-card">
+                    <h3>Quran Memorization (Hifz)</h3>
+                    <p>Step-by-step guidance to memorize the Holy Quran with expert tutors.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Start 3-Days Free Trial Classes</h2>
+        <p style="margin-bottom: 20px;">Contact us via WhatsApp or Email to schedule your classes.</p>
+        <p style="font-size: 1.2rem; margin-bottom: 10px;"><strong>WhatsApp:</strong> +92 3XX XXXXXXX</p>
+        <p style="font-size: 1.2rem;"><strong>Email:</strong> info@ummedawoodquran.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Umme Dawood Quran Academy. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
